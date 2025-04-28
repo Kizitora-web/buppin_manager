@@ -1,0 +1,53 @@
+.buppin-category {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    display: block;
+    margin-top: 5px;
+    border: solid 5px rgb(102, 255, 250);
+    border-radius: 6px;
+    margin-right: 5px;
+}
+
+.image img {
+    width: 250px;
+}
+
+.image p {
+    color: rgb(242, 28, 114);
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+.place-in-tamoiti {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.place-in-tamoiti img {
+    width: 475px;
+    border: solid 5px rgb(102, 255, 250);
+    border-radius: 6px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: rgb(6, 55, 110);
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: solid 2px rgb(0, 225, 255);
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pet {
+    display: flex;
+    flex-wrap: wrap;
+}

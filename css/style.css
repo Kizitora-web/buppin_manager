@@ -1,0 +1,62 @@
+/**/
+body {
+    background-color: white;
+}
+
+canvas{
+    color: skyblue;
+    position: absolute;
+    left: 0px;
+    top: 140px;
+}
+
+button{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 160px;
+    font-size: 40px;
+    background-color: rgb(4, 166, 216);
+    border: 4px outset blue;
+    border-bottom: solid 5px rgb(17, 17, 146);
+    border-radius: 5px;
+    color: rgb(255, 180, 17);
+}
+
+#upbtn{
+    top: 1490px;
+}
+
+#downbtn{
+    top: 1740px;
+}
+
+.argbtn{
+    top: 1490px;
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    background-color: rgb(29, 216, 4);
+    border: 4px outset rgb(0, 175, 15);
+    color: yellow;
+}
+
+#leftbtn{
+    left: 440px;
+}
+
+#rightbtn{
+    left: 650px;
+}
+
+#start{
+    top: 1690px;
+    left: 490px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: orange;
+    color: red;
+    box-shadow: 0 5px 0 rgb(187, 122, 2);
+    border: 4px outset orange;
+}

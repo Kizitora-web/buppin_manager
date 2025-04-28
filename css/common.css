@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    flex-flow: column;
+    min-height: 100vh;
+    margin: auto;
+}
+
+main {
+    flex-grow: 1;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(214, 214, 214);
+    padding: 8px;
+    font-size: 60px;
+}
+header p {
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+header p a {
+    text-decoration: none;
+    color: rgb(76, 157, 223);
+}
+
+.contents {
+    text-align: center; 
+}
+
+.contents a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(21, 20, 23);
+    margin-right: 10px;
+}
+
+.announcement {
+    background-color: white;
+    margin: 20px;
+    border: solid 5px red;
+}
+
+.announcement p {
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(228, 225, 225);
+    font-size: 20px;
+}
+
+.announcement p a {
+    text-decoration: none;
+    color: rgb(146, 80, 80);
+}
+
+.announcement p a:hover {
+    color: red;
+}
+
+h2 {
+    color: rgb(123, 226, 255);
+    font-size: 40px;
+    font-weight: 100; /*小文字にする*/
+    border-bottom: solid 2px rgb(123, 226, 255);
+    border-left: solid 5px rgb(123, 226, 255);
+    padding-left: 5px;
+}
+
+footer {
+    background-color: rgb(214, 214, 214);
+    padding: 8px;
+    text-align: center;
+    color: rgb(76, 159, 223);
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(60, 127, 177);
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}

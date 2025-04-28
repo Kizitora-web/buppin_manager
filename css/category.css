@@ -1,0 +1,153 @@
+.group a {
+    text-decoration: none;
+    color: #00c8ff;
+    text-align: center;
+    font-size: 60px;
+}
+
+.group p {
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.group p:hover {
+    background-color: rgb(254, 251, 58);
+}
+
+.buppins {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+.buppins a {
+    font-size: 40px;
+    color: red;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.buppin {
+    background-color: aliceblue;
+    width: 290px;
+    border-radius: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.buppin:hover {
+    background-color: rgb(160, 252, 252);
+}
+
+.stages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stage {
+    width: 470px;
+    background-color: aliceblue;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.stage:hover {
+    background-color: chartreuse;
+}
+
+.stages a {
+    text-decoration: none;
+    font-size: 50px;
+    color: chocolate;
+}
+
+.handlings {
+    margin-bottom: 10px;
+}
+
+.handlings a {
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(234, 179, 116);
+    text-align: center;
+}
+
+.handling {
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: solid 10px white;
+    border-radius: 100px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.handling:hover {
+    background-color: rgb(244, 143, 226);
+}
+
+.others {
+    margin-bottom: 10px;
+}
+
+.others a {
+    text-decoration: none;
+    font-size: 50px;
+    color: #22a050;
+    text-align: center; 
+}
+
+.other {
+    transform: skew(-30deg);
+    border: solid 10px white;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.other:hover {
+    transform: skew(0deg);
+    background-color: rgb(206, 51, 51);
+}
+
+.lendings {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lendings a {
+    text-decoration: none;
+    font-size: 60px;
+    color: darkorchid;
+    text-align: center;
+}
+
+.lending {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lending:hover {
+    background-color: darkorange;
+}
