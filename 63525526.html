@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header><p><a href="index.html">技術物品管理サイト</a></p></header>
+
+        <main>
+            <script src="js/gamescript.js"></script>
+            <div id="click_erea">
+                <canvas id="game" width="980" height="1300" style="background-color:skyblue"></canvas>
+            </div>
+            <button id="upbtn" onmousedown="change_speed(SPEEDUP_DOWN)" onmouseup="change_speed(SPEEDUP_UP)" onclick="change_speed(UP)">UP</button>
+            <button id="downbtn" onmousedown="change_speed(SPEEDDOWN_DOWN)" onmouseup="change_speed(SPEEDDOWN_UP)" onclick="change_speed(DOWN)">DOWN</button>
+            <button id="start" onclick="start_ball()"></button>
+            <button class="argbtn" id="leftbtn" onclick="change_ball_direction(LEFT)">左</button>
+            <button class="argbtn" id="rightbtn" onclick="change_ball_direction(RIGHT)">右</button>   
+        </main>
+
+        <footer>©第63回技術部物品統括者</footer>
+    </body>
+</html>

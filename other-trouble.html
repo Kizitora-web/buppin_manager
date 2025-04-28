@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/group.css">
+        <link rel="stylesheet" href="css/lightbox.min.css">
+    </head>
+
+    <body>
+        <header>
+            <p><a href="index.html">技術物品管理サイト</a></p>
+        </header>
+
+        <main>
+            <div class="announcement">
+                <p>タップすると知りたいところまで移動します</p>
+                <p>・<a href="#PC">パソコンからの音がでない</a></p>
+                <p>・<a href="#speaker">片方のスピーカーしか鳴らない</a></p>
+                <p>・<a href="#mic">マイクが機能しない</a></p>
+                <p>------------------------------------------------------------------</p>
+            </div>
+
+            <h2 id="PC">パソコンからの音がでない</h2>
+            <h3>パソコン側の問題</h3>
+            <div class="announcement">
+                <p>➀：パソコンの音声がミュートになっていないか調べる</p>
+                <p>➁：音声出力が外部出力になっているかを確かめる(設定のサウンドからスピーカーの設定を変更する)</p>
+                <p>➂：PC線がパソコンにしっかり刺さっているかを確かめる</p>
+            </div>
+            <h3>ミキサー側の問題</h3>
+            <div class="announcement">
+                <p>➀：マスターの音量が上がっている(0になっている)かを確かめる</p>
+                <p>➁：PC線が「INPUT」にしっかり刺さっているかを確かめる</p>
+            </div>
+
+            <h2 id="speaker">片方のスピーカーしか鳴らない</h2>
+            <div class="announcement">
+                <p>➀：ミキサーの出力がステレオ(一番上)になっているかを確かめる</p>
+                <p>➁：SP線が断線していないかを確かめる(二つのスピーカーのSP線を入れ替えてみる)</p>
+                <p>➂：スピーカーが故障していないかを確かめる(別のSP線につなぎ替えてみる)</p>
+            </div>
+
+            <h2 id="mic">マイクが機能しない</h2>
+            <h3>ミキサー側の問題</h3>
+            <div class="announcement">
+                <p>➀：マスターの音量が上がっている(0になっている)かを確かめる</p>
+                <p>➁：SP線が「INPUT」にしっかり刺さっているかを確かめる</p>
+                <p>➂：シグナルが入っているかを確かめる</p>
+            </div>
+            <h3>ワイヤレスアンプ、マイク側の問題</h3>
+            <div class="announcement">
+                <p>➀：マイクに電池が入っているか、電池が切れていないかを確かめる</p>
+                <p>➁：ワイヤレスアンプが内部スピーカー出力になっていないかを確かめる(蓋を開けると奥に出力媒体を選択するスイッチがある)</p>
+                <p>➂：ワイヤレスアンプとマイクのチャンネルが一致しているかを確かめる(ワイヤレスアンプは蓋を開けた下の方にある、マイクは電池を入れる付近にある、チャンネルはドライバーやシャーペンで変更できる)</p>
+                <p>➃：ワイヤレスアンプの出力ラインにSP線が刺さっていることを確かめる。</p>
+            </div>
+        </main>
+
+        <footer>©第63回技術部物品統括者</footer>
+
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+    </body>
+</html>
